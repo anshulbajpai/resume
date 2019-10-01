@@ -2,7 +2,7 @@
 
 echo "Starting resume json server"
 
-nohup ./node_modules/.bin/resume serve --theme kendall &
+nohup ./node_modules/.bin/resume serve -s --theme kendall &
 SERVER_PROCESS_ID=$!
 
 echo "SERVER_PROCESS_ID=${SERVER_PROCESS_ID}"
