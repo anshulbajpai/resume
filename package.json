@@ -1,0 +1,6 @@
+{
+  "name": "resume",
+  "devDependencies": {
+    "resume-cli": "^1.2.7"
+  }
+}
