@@ -4,41 +4,42 @@ echo "Starting resume json server"
 
 nohup ./node_modules/.bin/resume serve -s --theme kendall &
 SERVER_PROCESS_ID=$!
+RESUME_WEBSITE_PATH=${PWD}/../anshulbajpai.github.io
 
 echo "SERVER_PROCESS_ID=${SERVER_PROCESS_ID}"
 
-echo "Started resume json server"
-echo "Switching to github pages directoy"
-
-cd ../anshulbajpai.github.io || exit
-
 echo "Sleeping while server starts"
-sleep 3
+sleep 2
+
+echo "Started resume json server"
 
 echo "Downloading resume at ${PWD}/resume.html"
 curl http://localhost:4000 > resume.html
 
 echo "Resume diff"
 
-git diff resume.html
+diff -bBwu ${RESUME_WEBSITE_PATH}/resume.html resume.html
 
 push_resume () {
+  mv -f resume.html ${RESUME_WEBSITE_PATH}/resume.html
+  echo "Switching to github pages directoy"
+  cd ${RESUME_WEBSITE_PATH} || exit
   echo "Committing resume changes"
   git add resume.html
   git commit -m "Updated resume"
   git push
+  echo "Updated resume is LIVE now"
+  cd - || exit
 }
 
 while true; do
-    read -p "Do you wish to push this change? (y/n)" yn
+    read -p "Do you wish to make this change LIVE? (y/n)" yn
     case $yn in
         [Yy]* ) push_resume; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-cd - || exit
 
 echo "Killing resume server"
 kill -9 ${SERVER_PROCESS_ID}
