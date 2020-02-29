@@ -18,7 +18,7 @@ curl http://localhost:4000 > resume.html
 
 echo "Resume diff"
 
-diff -bBwu ${RESUME_WEBSITE_PATH}/resume.html resume.html
+diff -bBwu ${RESUME_WEBSITE_PATH}/resume.html resume.html | colordiff
 
 push_resume () {
   mv -f resume.html ${RESUME_WEBSITE_PATH}/resume.html
