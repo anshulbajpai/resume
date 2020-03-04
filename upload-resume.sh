@@ -43,3 +43,19 @@ done
 
 echo "Killing resume server"
 kill -9 ${SERVER_PROCESS_ID}
+
+commit_push () {
+  git commit -a
+  git push
+}
+
+git diff
+
+while true; do
+    read -p "Do you wish to commit and push these changes? (y/n)" yn
+    case $yn in
+        [Yy]* ) commit_push; break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
