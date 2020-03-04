@@ -131,6 +131,14 @@
       ]
     },
     {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "spring",
+        "spring-boot"
+      ]
+    },
+    {
       "name": "Scala",
       "level": "Master",
       "keywords": [
@@ -139,6 +147,12 @@
         "cats-effect",
         "fs2",
         "shapeless"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Intermediate",
+      "keywords": [
       ]
     },
     {
@@ -182,11 +196,6 @@
         "Cloudwatch",
         "Cloudformation"
       ]
-    },
-    {
-      "name": "Java",
-      "level": "Master",
-      "keywords": []
     }
   ],
   "languages": [],
