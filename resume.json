@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Anshul Bajpai",
-    "label": "Software Consultant/Engineer",
+    "label": "Senior Consultant/Engineer",
     "picture": "",
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
     "website": "https://www.linkedin.com/in/anshulbajpai",
-    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 14 years of experience in agile software development. I have a vast experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an inherent <b>functional-programming developer using Scala for the past 6 years and Java for 10 years</b>. I have also used advanced functional libraries like cats, cats-effect, fs2, shapeless etc.</p><p>I am an <b>extreme programming practitioner</b> and I believe in writing tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I have worked with a vast number of technologies in past ranging from JVM based languages like <b>Java</b> and Groovy to .net technologies like C#. Have also developed rich internet applications using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in nodejs.</p>",
+    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 14 years of experience in agile software development. I have many years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I believe in writing tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 6 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like C#. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in nodejs.</p><p>Recently, I have also built few <b>serverless</b> components on AWS using AWS Lambdas, AWS Kinesis/SQS and AWS DynamoDB. I also have good knowledge of AWS StepFunctions (state-machine).</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,14 +30,14 @@
   "work": [
     {
       "company": "Guardian",
-      "position": "Scala Engineer",
+      "position": "Senior Engineer",
       "website": "https://www.theguardian.com/uk",
       "startDate": "2019-12",
       "endDate": "2020-03",
       "summary": "Rewriting the data ingestion component of the core content-api",
       "highlights": [
         "Helped rewriting the core ingestion component from using legacy vanilla actors to now use more robust, back-pressured akka-streams",
-        "Using AWS Kinesis and SQS to source content and persist in elasticsearch"
+        "Using AWS Kinesis and SQS to source content and persist in elasticsearch and exposing them using RESTful services and AWS Lambda"
       ]
     },
     {
@@ -131,6 +131,17 @@
       ]
     },
     {
+      "name": "Software architecture",
+      "level": "Master",
+      "keywords": [
+        "Microservices",
+        "RESTful APIs",
+        "Event sourcing",
+        "CQRS",
+        "Serverless"
+      ]
+    },
+    {
       "name": "Java",
       "level": "Master",
       "keywords": [
@@ -190,12 +201,14 @@
     },
     {
       "name": "AWS",
-      "level": "Intermediate",
+      "level": "Master",
       "keywords": [
+        "Lambda",
+        "StepFunctions",
+        "StateMachine",
         "ECS",
         "DynamoDB",
         "Kinesis",
-        "Lambda",
         "Cloudwatch",
         "Cloudformation"
       ]
