@@ -6,7 +6,7 @@
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
     "website": "https://www.linkedin.com/in/anshulbajpai",
-    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 14 years of experience in agile software development. I have many years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I believe in writing tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 6 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like C#. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in nodejs.</p><p>Recently, I have also built few <b>serverless</b> components on AWS using AWS Lambdas, AWS Kinesis/SQS and AWS DynamoDB. I also have good knowledge of AWS StepFunctions (state-machine).</p>",
+    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 14 years of experience in agile software development. I have many years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I believe in writing tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 6 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p><p>Recently, I have also built few <b>serverless</b> components on AWS using AWS Lambdas, AWS Kinesis/SQS and AWS DynamoDB. I also have good knowledge of AWS StepFunctions (state-machine).</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,6 +28,17 @@
     ]
   },
   "work": [
+    {
+      "company": "Depop",
+      "position": "Senior Engineer",
+      "website": "https://www.depop.com/",
+      "startDate": "2020-06",
+      "summary": "Rewriting the authentication platform.",
+      "highlights": [
+        "Rewriting the existing authentication platform",
+        "Using Scala, Playframework, Postgres, DynamoDB, Terraform, Kubernetes"
+      ]
+    },
     {
       "company": "Guardian",
       "position": "Senior Engineer",
@@ -167,6 +178,19 @@
       "name": "Kotlin",
       "level": "Intermediate",
       "keywords": [
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "nodejs",
+      "level": "Intermediate",
+      "keywords": [
+        "express"
       ]
     },
     {
