@@ -1,11 +1,11 @@
-#  Run locally 
+# Resume
+
+## Run locally
 
 - asdf install
 - npm install
-- ./node_modules/.bin/resume serve -s --theme kendall
+- $(npm bin)/resume serve -s
 
-# Update resume
+## Update resume
 
 `./upload-resume.sh`
-
-

@@ -2,7 +2,7 @@
 
 echo "Starting resume json server"
 
-nohup ./node_modules/.bin/resume serve -s --theme kendall &
+nohup $(npm bin)/resume serve -s --theme kendall &
 SERVER_PROCESS_ID=$!
 RESUME_WEBSITE_PATH=${PWD}/../anshulbajpai.github.io
 

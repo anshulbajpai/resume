@@ -5,8 +5,7 @@
     "picture": "",
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
-    "website": "https://www.linkedin.com/in/anshulbajpai",
-    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 14 years of experience in agile software development. I have many years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I believe in writing tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 6 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p><p>Recently, I have also built few <b>serverless</b> components on AWS using AWS Lambdas, AWS Kinesis/SQS and AWS DynamoDB. I also have good knowledge of AWS StepFunctions (state-machine).</p>",
+    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 15 years of experience in agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I write tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 7 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,32 +16,36 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "https://www.linkedin.com/in/anshulbajpai",
+        "username": "anshulbajpai",
         "url": "https://www.linkedin.com/in/anshulbajpai"
       },
       {
         "network": "Github",
-        "username": "https://github.com/anshulbajpai",
+        "username": "anshulbajpai",
         "url": "https://github.com/anshulbajpai"
       }
     ]
   },
   "work": [
     {
-      "company": "Depop",
+      "name": "Depop",
+      "location": "London, UK",
       "position": "Senior Engineer",
-      "website": "https://www.depop.com/",
+      "url": "http://depop.com/",
       "startDate": "2020-06",
-      "summary": "Rewriting the authentication platform.",
+      "endDate": "2020-08",
+      "summary": "Rewriting the authentication platform for website and devices.",
       "highlights": [
-        "Rewriting the existing authentication platform",
+        "Was part of team which was re-writing the python based authentication platform using Scala",
+        "Also working closely with the lead architect on multi-factor-authentication journeys",
         "Using Scala, Playframework, Postgres, DynamoDB, Terraform, Kubernetes"
       ]
     },
     {
       "company": "Guardian",
+      "location": "London, UK",
       "position": "Senior Engineer",
-      "website": "https://www.theguardian.com/uk",
+      "url": "https://www.theguardian.com/uk",
       "startDate": "2019-12",
       "endDate": "2020-03",
       "summary": "Rewriting the data ingestion component of the core content-api",
@@ -53,8 +56,9 @@
     },
     {
       "company": "EqualExperts UK",
+      "location": "London, UK",
       "position": "Senior Software Engineer",
-      "website": "https://www.equalexperts.com",
+      "url": "https://www.equalexperts.com",
       "startDate": "2014-11",
       "endDate": "2019-12",
       "summary": "Worked as a senior consultant for various clients - Streaming Media Company, <a href=\"https://www.gov.uk/government/organisations/intellectual-property-office\">Intellectual property office</a>, <a href=\"https://www.klarna.com/uk/\">Klarna</a>, <a href=\"https://www.xinja.com.au/\">Xinja</a>, <a href=\"https://www.gov.uk/government/organisations/hm-revenue-customs\">HMRC</a>, <a href=\"https://www.visa.co.uk/\">VISA</a>",
@@ -68,8 +72,9 @@
     },
     {
       "company": "EqualExperts India",
+      "location": "Pune, India",
       "position": "Software Engineer",
-      "website": "https://www.equalexperts.com",
+      "url": "https://www.equalexperts.com",
       "startDate": "2011-01",
       "endDate": "2014-10",
       "summary": "Worked as a consultant for various clients - <a href=\"https://www.o2.co.uk/\">O2</a>, <a href=\"https://www.caplin.com/\">Caplin</a>",
@@ -79,8 +84,9 @@
     },
     {
       "company": "Thoughtworks India",
+      "location": "Pune/Bangalore, India",
       "position": "Application Developer",
-      "website": "https://www.thoughtworks.com",
+      "url": "https://www.thoughtworks.com",
       "startDate": "2007-10",
       "endDate": "2010-12",
       "summary": "Worked as an application developer for <a href=\"https://www.thetrainline.com/\">The trainline</a>, <a href=\"https://www.stanford.edu/\">Stanford University</a>",
@@ -88,8 +94,9 @@
     },
     {
       "company": "Persistent Systems",
+      "location": "Pune, India",
       "position": "Member of technical staff",
-      "website": "https://www.persistent.com/",
+      "url": "https://www.persistent.com/",
       "startDate": "2006-07",
       "endDate": "2007-09",
       "summary": "Worked as a Junior developer on internal projects",
@@ -100,24 +107,31 @@
   "education": [
     {
       "institution": "Coursera",
+      "url": "https://www.coursera.org/learn/scala-akka-reactive",
       "area": "Reactive programming",
       "studyType": "",
       "startDate": "",
       "endDate": "2014",
-      "gpa": "",
-      "courses": ["Principles of Reactive Programming"]
+      "score": "",
+      "courses": [
+        "Principles of Reactive Programming"
+      ]
     },
     {
       "institution": "Coursera",
+      "url": "https://www.coursera.org/specializations/scala",
       "area": "Functional programming",
       "studyType": "",
       "startDate": "",
       "endDate": "2012",
       "gpa": "",
-      "courses": ["Functional Programming Principles in Scala"]
+      "courses": [
+        "Functional Programming Principles in Scala"
+      ]
     },
     {
       "institution": "Visvesvaraya National Institute of Technology, Nagpur",
+      "url": "https://vnit.ac.in/",
       "area": "Electronics and Communication",
       "studyType": "Bachelor",
       "startDate": "2002",
@@ -149,7 +163,8 @@
         "RESTful APIs",
         "Event sourcing",
         "CQRS",
-        "Serverless"
+        "Serverless",
+        "OAuth2/OpenID/JWT"
       ]
     },
     {
@@ -171,30 +186,12 @@
         "cats",
         "cats-effect",
         "fs2",
-        "shapeless"
+        "shapeless",
+        "recursion-schemes"
       ]
     },
     {
-      "name": "Kotlin",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "C#",
-      "level": "Intermediate",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "nodejs",
-      "level": "Intermediate",
-      "keywords": [
-        "express"
-      ]
-    },
-    {
-      "name": "Web framework",
+      "name": "Web frameworks",
       "level": "Master",
       "keywords": [
         "play-framework",
@@ -209,12 +206,13 @@
         "AWS Kineses",
         "Akka Streams",
         "fs2",
-        "AWS Lambda"
+        "AWS Lambda",
+        "AWS SQS"
       ]
     },
     {
       "name": "Database",
-      "level": "Intermediate",
+      "level": "Master",
       "keywords": [
         "DynamoDb",
         "MongoDB",
@@ -244,13 +242,34 @@
         "docker",
         "docker-compose"
       ]
+    },
+    {
+      "name": "nodejs",
+      "level": "Intermediate",
+      "keywords": [
+        "express"
+      ]
+    },
+    {
+      "name": "Cloud configuration/provisioning",
+      "level": "Intermediate",
+      "keywords": [
+        "Terraform",
+        "Ansible"
+      ]
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
   "interests": [],
   "references": [],
   "meta": {
-    "theme": "kendall"
+    "theme": "kendall",
+    "version": "1.0.0",
+    "canonical": "https://github.com/anshulbajpai/resume/blob/master/resume.json"
   }
 }
-
