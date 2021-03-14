@@ -17,12 +17,12 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "anshulbajpai",
+        "username": "https://www.linkedin.com/in/anshulbajpai",
         "url": "https://www.linkedin.com/in/anshulbajpai"
       },
       {
         "network": "Github",
-        "username": "anshulbajpai",
+        "username": "https://github.com/anshulbajpai",
         "url": "https://github.com/anshulbajpai"
       }
     ]
