@@ -28,6 +28,21 @@
   },
   "work": [
     {
+      "name": "HMRC",
+      "location": "London, UK",
+      "position": "Senior Engineer",
+      "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "startDate": "2020-09",
+      "summary": "Senior engineer on Platform team which helps delivery teams to achieve their business goals",
+      "highlights": [
+        "Develop AWS facades that keeps delivery teams cloud provider agnostic",
+        "Develop internal Authn/Authz services",
+        "Develop opinionated bootstrap microservices libraries",
+        "Develop devx tools to help service teams explore other services and dependencies on the Platform",
+        "Using Scala, Playframework, Mongodb, AWS, Terraform"
+      ]
+    },
+    {
       "name": "Depop",
       "location": "London, UK",
       "position": "Senior Engineer",
