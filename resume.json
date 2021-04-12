@@ -58,7 +58,7 @@
       ]
     },
     {
-      "company": "Guardian",
+      "name": "Guardian",
       "location": "London, UK",
       "position": "Senior Engineer",
       "url": "https://www.theguardian.com/uk",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "company": "EqualExperts UK",
+      "name": "EqualExperts UK",
       "location": "London, UK",
       "position": "Senior Software Engineer",
       "url": "https://www.equalexperts.com",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "company": "EqualExperts India",
+      "name": "EqualExperts India",
       "location": "Pune, India",
       "position": "Software Engineer",
       "url": "https://www.equalexperts.com",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "company": "Thoughtworks India",
+      "name": "Thoughtworks India",
       "location": "Pune/Bangalore, India",
       "position": "Application Developer",
       "url": "https://www.thoughtworks.com",
@@ -109,7 +109,7 @@
       "highlights": []
     },
     {
-      "company": "Persistent Systems",
+      "name": "Persistent Systems",
       "location": "Pune, India",
       "position": "Member of technical staff",
       "url": "https://www.persistent.com/",

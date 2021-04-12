@@ -4,7 +4,7 @@
 
 - asdf install
 - npm install
-- $(npm bin)/resume serve -s
+- $(npm bin)/resume serve -s --theme kendall
 
 ## Update resume
 
