@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Anshul Bajpai",
-    "label": "Senior Consultant/Engineer",
+    "label": "Tech Lead / Architect / Senior Consultant / Senior engineer",
     "picture": "",
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
     "url": "https://anshulbajpai.github.io/resume",
-    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 15 years of experience in agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom etc.</p><p>I am an <b>extreme programming practitioner</b> and I write tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 7 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
+    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 16 years of experience in agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom, insurance etc.</p><p>I am an <b>extreme programming practitioner</b> and I write tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 7 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,11 +29,27 @@
   },
   "work": [
     {
-      "name": "HMRC",
+      "name": "Zego (Contract via EqualExperts)",
+      "location": "London, UK",
+      "position": "Tech Lead",
+      "url": "https://www.zego.com/",
+      "startDate": "2021-08",
+      "summary": "Tech Lead for a team building a Pricing & Risk platform using grpc Scala microservices",
+      "highlights": [
+        "Closely working with the stakeholders to build a pricing engine and configuration system for both customers and internal users",
+        "Design pricing engine configuration DSL closely with the data-science & pricing analysts",
+        "Design platform architecture",
+        "Focus on observability",
+        "Using scala, grpc, cats, cats-effect, Terraform, Kubernetes, Kinesis, DynamoDB"
+      ]
+    },
+    {
+      "name": "HMRC (Contract via MadeTech)",
       "location": "London, UK",
       "position": "Senior Engineer",
       "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
       "startDate": "2020-09",
+      "endDate": "2021-08",
       "summary": "Senior engineer on Platform team which helps delivery teams to achieve their business goals",
       "highlights": [
         "Develop AWS facades that keeps delivery teams cloud provider agnostic",
@@ -58,7 +74,7 @@
       ]
     },
     {
-      "name": "Guardian",
+      "name": "Guardian (Contract)",
       "location": "London, UK",
       "position": "Senior Engineer",
       "url": "https://www.theguardian.com/uk",
