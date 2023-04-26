@@ -4,7 +4,6 @@ echo "Starting resume json server"
 
 nohup $(npm bin)/resume serve -s --theme kendall &
 SERVER_PROCESS_ID=$!
-RESUME_WEBSITE_PATH=${PWD}/../anshulbajpai.github.io
 
 echo "SERVER_PROCESS_ID=${SERVER_PROCESS_ID}"
 
@@ -13,23 +12,31 @@ sleep 2
 
 echo "Started resume json server"
 
-echo "Downloading resume at ${PWD}/resume.html"
-curl http://localhost:4000 > resume.html
+echo "Downloading new resume at /tmp/new.html"
+curl http://localhost:4000 > /tmp/new.html
+
+echo "Killing resume server"
+kill -9 ${SERVER_PROCESS_ID}
+
+echo "Downloading existing resume at /tmp/current.html"
+curl https://anshulbajpai.github.io/resume/index.html > /tmp/current.html
 
 echo "Resume diff"
-
-diff -bBwu ${RESUME_WEBSITE_PATH}/resume.html resume.html | colordiff
+diff -bBwu /tmp/current.html /tmp/new.html | colordiff
 
 push_resume () {
-  mv -f resume.html ${RESUME_WEBSITE_PATH}/resume.html
-  echo "Switching to github pages directoy"
-  cd ${RESUME_WEBSITE_PATH} || exit
+  echo "Stashing current changes before switching branch"
+  git stash
+  echo "Switching to gh-pages branch"
+  git checkout gh-pages
+  cp -f /tmp/new.html index.html
   echo "Committing resume changes"
-  git add resume.html
+  git add index.html
   git commit -m "Updated resume"
   git push
   echo "Updated resume is LIVE now"
-  cd - || exit
+  git checkout master
+  git stash pop
 }
 
 while true; do
@@ -40,9 +47,6 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-echo "Killing resume server"
-kill -9 ${SERVER_PROCESS_ID}
 
 commit_push () {
   git commit -a
