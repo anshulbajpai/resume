@@ -1,5 +1,10 @@
 {
   "name": "resume",
+  "scripts": {
+    "resumed": "resumed",
+    "render": "resumed render resume.json",
+    "validate": "resumed validate resume.json"
+  },
   "devDependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
     "resume-cli": "3.0.6",
