@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Anshul Bajpai",
-    "label": "Tech Lead / Architect / Senior Consultant / Senior engineer",
+    "label": "Principal Consultant | Software Architect | Tech Lead",
     "image": "https://anshulbajpai.github.io/resume/picture.jpg",
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
     "url": "https://anshulbajpai.github.io/resume",
-    "summary": "<p>I am a <b>delivery focused polyglot consultant/engineer</b> with 16 years of experience in agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom, insurance etc.</p><p>I am an <b>extreme programming practitioner</b> and I write tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for past 9 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
+    "summary": "<p>I am a <b>delivery focused polyglot Principal Consultant</b> with 18 years of experience in Agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom, insurance, streaming etc.</p><p>I am an <b>extreme programming practitioner</b> and I help teams deliver tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for more than 10 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,18 +30,35 @@
   },
   "work": [
     {
+      "name": "SiriusXM (Contract)",
+      "location": "London, UK",
+      "position": "Tech Lead - Partner Orchestration",
+      "url": "https://www.siriusxm.com/",
+      "startDate": "2024-03",
+      "summary": "Lead orchestration services to integrate with partner systems",
+      "highlights": [
+        "Closely worked with the stakeholders to help them launch the new SiriusXM app for a leading EV manufacturer",
+        "Collaborating with multiple teams to solutionize and help decomissioning a legacy system",
+        "Working with other leads/architects to propose solutions for immediate business needs involving multiple systems",
+        "Working with team to ensure high quality tested software is shipped",
+        "Focus on observability",
+        "Using scala, http4s, cats, cats-effect, AWS CDK, Kinesis streams, DynamoDB, Lambda, ECS, Datadog, Databricks, Spark, EMR, Smithy"
+      ]
+    },
+    {
       "name": "Disney Streaming Services (Contract via EqualExperts)",
       "location": "London, UK",
       "position": "Tech Lead - Core Authentication and Access Management",
       "url": "https://www.disneyplus.com",
       "startDate": "2022-09",
-      "summary": "Tech Lead of core authentication and access management",
+      "endDate": "2024-02",
+      "summary": "Lead core identity authentication and identity management",
       "highlights": [
         "Closely working with the stakeholders to merge two identity systems",
-        "Adding new capabilties to authentication and access management platform",
+        "Add new capabilties to authentication and access management platform",
         "Architectural proposals and ensuring high quality delivery",
         "Focus on observability",
-        "Using scala, http4s, play, cats, cats-effect, Terraform, Kinesis, DynamoDB, Lambda"
+        "Using scala, http4s, play, cats, cats-effect, Terraform, Kinesis streams, DynamoDB, Lambda, ECS, Datadog, Databricks, Spark, EMR, OpenAPI"
       ]
     },
     {
@@ -51,13 +68,13 @@
       "url": "https://www.zego.com/",
       "startDate": "2021-08",
       "endDate": "2022-08",
-      "summary": "Tech Lead for a team building a Pricing & Risk platform using grpc Scala microservices",
+      "summary": "Lead building a rewrite of Pricing & Risk platform using grpc Scala microservices",
       "highlights": [
         "Closely working with the stakeholders to build a pricing engine and configuration system for both customers and internal users",
         "Design pricing engine configuration DSL closely with the data-science & pricing analysts",
         "Design platform architecture",
         "Focus on observability",
-        "Using scala, grpc, cats, cats-effect, Terraform, Kubernetes, Kinesis, DynamoDB"
+        "Using scala, grpc, cats, cats-effect, Terraform, Kubernetes, Kinesis, DynamoDB, Datadog"
       ]
     },
     {
@@ -201,7 +218,7 @@
         "pair programming",
         "TDD",
         "BDD",
-        "CI/CD"
+        "CI/CD"        
       ]
     },
     {
@@ -210,7 +227,7 @@
       "keywords": [
         "Microservices",
         "RESTful APIs",
-        "Event sourcing",
+        "Event drivern architecture",
         "CQRS",
         "Serverless",
         "OAuth2/OpenID/JWT"
@@ -231,10 +248,12 @@
       "name": "Scala",
       "level": "Master",
       "keywords": [
-        "tagless-final",
         "cats",
         "cats-effect",
+        "typelevel",
+        "tagless-final",
         "fs2",
+        "http4s",
         "shapeless",
         "recursion-schemes"
       ]
@@ -252,9 +271,9 @@
       "level": "Master",
       "keywords": [
         "Kafka",
-        "AWS Kineses",
+        "AWS Kinesis Streams",
         "Akka Streams",
-        "fs2",
+        "scala cats fs2",
         "AWS Lambda",
         "AWS SQS"
       ]
@@ -278,10 +297,20 @@
         "StepFunctions",
         "StateMachine",
         "ECS",
+        "EMR",
         "DynamoDB",
         "Kinesis",
         "Cloudwatch",
         "Cloudformation"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "level": "Master",
+      "keywords": [
+        "Datadog",
+        "OpenTelemetry",
+        "scala natchez"
       ]
     },
     {
@@ -304,7 +333,8 @@
       "level": "Intermediate",
       "keywords": [
         "Terraform",
-        "Ansible"
+        "Ansible",
+        "CDK"
       ]
     }
   ],
@@ -314,7 +344,14 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Playing chess"
+    },
+    {
+      "name": "Playing tennis"
+    }
+  ],
   "references": [],
   "meta": {
     "theme": "jsonresume-theme-kendall",
