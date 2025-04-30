@@ -7,7 +7,7 @@
     "email": "bajpai.anshul@gmail.com",
     "phone": "+44 7404 7144 70",
     "url": "https://anshulbajpai.github.io/resume",
-    "summary": "<p>I am a <b>delivery focused polyglot Principal Consultant</b> with 18 years of experience in Agile software delivery. I have years of experience in building <b>high-throughput, performant, scalable systems</b> in a wide number of domains e.g. government, e-commerce, financial, fraud, banking, telecom, insurance, streaming etc.</p><p>I am an <b>extreme programming practitioner</b> and I help teams deliver tested, scalable, clean and maintainable software. I believe in building a simple architecture/solution using open-source technologies instead of building complicated enterprisey solutions.</p><p>I am also an inherent functional programming developer for more than 10 years using <b>Scala</b> and other <b>typelevel</b> libraries</p><p>I have worked with several technologies in past ranging from JVM based languages like <b>Scala, Java</b> and Groovy to .net technologies like <b>C#</b>. I have also developed RIA using javascript libraries/frameworks like backbone and angular.js, ionic, react backed by RESTful services built in <b>nodejs</b>.</p>",
+    "summary": "<p>Highly experienced and results-oriented Principal Consultant with 18 years of dedicated experience in Agile software delivery. A true polyglot developer, I specialize in building high-throughput, performant, and scalable systems across diverse domains including government, e-commerce, financial, fraud, banking, telecom, insurance, and streaming.</p><p>I am a firm believer in delivering high-quality software through close collaboration with teams, actively practicing Extreme Programming principles to ensure systems are well-tested, clean, and maintainable. My approach favors simple, extendable architectures built with open-source technologies over overly complex enterprise solutions. With over a decade of experience, I am an inherent functional programming practitioner, particularly skilled in Scala and related typelevel libraries.</p><p>Beyond team-level delivery, I excel at working closely with stakeholders, technical leads, and architects to define and propose robust solutions that span multiple teams and platforms, effectively solving complex business needs. I have a proven track record of leading distributed teams to produce amazing results, fostering a collaborative environment, encouraging team members to embrace challenges and devise innovative solutions, and actively nurturing new leaders within the organisation.</p><p>My extensive technical background includes work with various technologies, with a strong foundation in JVM-based languages like Scala, Java, and Groovy.</p>",
     "location": {
       "address": "",
       "postalCode": "",
@@ -346,10 +346,10 @@
   ],
   "interests": [
     {
-      "name": "Playing chess"
+      "name": "Play chess"
     },
     {
-      "name": "Playing tennis"
+      "name": "Play tennis"
     }
   ],
   "references": [],
