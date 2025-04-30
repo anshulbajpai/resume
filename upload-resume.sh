@@ -1,22 +1,8 @@
 #!/usr/bin/env sh
 
-echo "Starting resume json server"
+echo "Rendering new resume at /tmp/new.html"
 
-nohup $(npm bin)/resume serve -s --theme kendall &
-SERVER_PROCESS_ID=$!
-
-echo "SERVER_PROCESS_ID=${SERVER_PROCESS_ID}"
-
-echo "Sleeping while server starts"
-sleep 2
-
-echo "Started resume json server"
-
-echo "Downloading new resume at /tmp/new.html"
-curl http://localhost:4000 > /tmp/new.html
-
-echo "Killing resume server"
-kill -9 ${SERVER_PROCESS_ID}
+npm run render -- -o /tmp/new.html
 
 echo "Downloading existing resume at /tmp/current.html"
 curl https://anshulbajpai.github.io/resume/index.html > /tmp/current.html

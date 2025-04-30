@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Anshul Bajpai",
     "label": "Tech Lead / Architect / Senior Consultant / Senior engineer",
@@ -32,7 +33,7 @@
       "name": "Disney Streaming Services (Contract via EqualExperts)",
       "location": "London, UK",
       "position": "Tech Lead - Core Authentication and Access Management",
-      "url": "www.disneyplus.com",
+      "url": "https://www.disneyplus.com",
       "startDate": "2022-09",
       "summary": "Tech Lead of core authentication and access management",
       "highlights": [
@@ -158,7 +159,7 @@
       "url": "https://www.coursera.org/learn/scala-akka-reactive",
       "area": "Reactive programming",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2014",
       "endDate": "2014",
       "score": "",
       "courses": [
@@ -170,7 +171,7 @@
       "url": "https://www.coursera.org/specializations/scala",
       "area": "Functional programming",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2012",
       "endDate": "2012",
       "gpa": "",
       "courses": [
@@ -316,7 +317,7 @@
   "interests": [],
   "references": [],
   "meta": {
-    "theme": "kendall",
+    "theme": "jsonresume-theme-kendall",
     "version": "1.0.0",
     "canonical": "https://github.com/anshulbajpai/resume/blob/master/resume.json"
   }
